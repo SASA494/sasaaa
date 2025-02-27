@@ -1,0 +1,17 @@
+-- Create the Student table
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DateOfBirth DATE,
+    Grade INT
+);
+
+-- Create the Teacher table
+CREATE TABLE Teacher (
+    TeacherID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Subject VARCHAR(50),
+    HireDate DATE
+);
